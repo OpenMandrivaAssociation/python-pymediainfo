@@ -30,6 +30,9 @@ BuildRequires:  python3dist(simplejson)
 
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
+%description
+This small package is a wrapper around the MediaInfo library.
+
 %package -n python-%{pypi_name}-doc
 Summary:        pymediainfo documentation
 
