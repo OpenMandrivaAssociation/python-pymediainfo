@@ -12,7 +12,7 @@ Source0:        https://pypi.io/packages/source/p/pymediainfo/%{pypi_name}-%{ver
 BuildArch:      noarch
 
 # Required for tests
-BuildRequires:  mediainfo
+#BuildRequires:  mediainfo
 BuildRequires:  pkgconfig(libmediainfo)
 BuildRequires:  locales-en
 BuildRequires:  pkgconfig(python)
