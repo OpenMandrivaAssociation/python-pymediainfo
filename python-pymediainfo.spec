@@ -2,8 +2,8 @@
 %global pypi_name pymediainfo
 
 Name:           python-%{pypi_name}
-Version:        4.2.1
-Release:        2
+Version:        4.3
+Release:        1
 Summary:        A Python wrapper for the mediainfo library
 Group:          Development/Python
 License:        MIT
