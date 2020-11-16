@@ -40,6 +40,9 @@ Summary:        pymediainfo documentation
 Documentation for pymediainfo
 
 %prep
+# Make sure the tarball (containing non-ASCII filenames)
+# can be extracted correctly
+export LC_ALL=en_US.utf-8
 %autosetup -n %{pypi_name}-%{version}
 
 # Remove bundled egg-info
