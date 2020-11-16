@@ -26,7 +26,7 @@ BuildRequires:  python3dist(pluggy)
 BuildRequires:  python3dist(py)
 BuildRequires:  python3dist(six)
 BuildRequires:  python3dist(simplejson)
-#BuildRequires:  python3dist(setuptools-scm)
+BuildRequires:  python3dist(setuptools-scm)
 
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
