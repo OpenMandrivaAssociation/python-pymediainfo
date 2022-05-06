@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        5.1.0
-Release:        2
+Release:        3
 Summary:        A Python wrapper for the mediainfo library
 Group:          Development/Python
 License:        MIT
@@ -27,6 +27,7 @@ BuildRequires:  python3dist(py)
 BuildRequires:  python3dist(six)
 BuildRequires:  python3dist(simplejson)
 BuildRequires:  python3dist(setuptools-scm)
+BuildRequires:  python3dist(tomli)
 
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
