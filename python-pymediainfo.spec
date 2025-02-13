@@ -28,6 +28,7 @@ BuildRequires:  python3dist(six)
 BuildRequires:  python3dist(simplejson)
 BuildRequires:  python3dist(setuptools-scm)
 BuildRequires:  python3dist(tomli)
+BuildRequires:  python3dist(pdm-backend)
 
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
