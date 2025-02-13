@@ -2,7 +2,7 @@
 %global pypi_name pymediainfo
 
 Name:           python-%{pypi_name}
-Version:        6.1.0
+Version:        7.0.1
 Release:        1
 Summary:        A Python wrapper for the mediainfo library
 Group:          Development/Python
