@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        7.0.1
-Release:        2
+Release:        3
 Summary:        A Python wrapper for the mediainfo library
 Group:          Development/Python
 License:        MIT
